@@ -33,15 +33,15 @@ public class Main extends Application {
      */
     public static void main(String[] args) {
 
-            Part inHouse1 = new InHouse(1, "handlebar", 59.99, 5, 1, 20, 201);
-            Part outsourced1 = new Outsourced(2, "sprocket", 29.99, 10, 5, 25, "Sprock Bros");
-            Part inHouse2 = new InHouse(3, "reflector", 9.99, 15, 1, 25, 205);
+            Part inHouse1 = new InHouse(1, "throttle", 59.99, 5, 1, 20, 201);
+            Part outsourced1 = new Outsourced(2, "sprocket", 89.99, 10, 5, 25, "Sprock Bros");
+            Part inHouse2 = new InHouse(3, "chain", 199.99, 15, 1, 25, 205);
             Inventory.addPart(inHouse1);
             Inventory.addPart(outsourced1);
             Inventory.addPart(inHouse2);
 
-            Product product1 = new Product(1001,"road racer", 109.99, 10, 5, 20);
-            Product product2 = new Product(1002, "beach cruiser", 299.99, 3, 1, 5);
+            Product product1 = new Product(1001,"cafe racer", 22109.99, 10, 5, 20);
+            Product product2 = new Product(1002, "sport bike", 25799.99, 3, 1, 5);
             Inventory.addProduct(product1);
             Inventory.addProduct(product2);
 
